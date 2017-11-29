@@ -1,0 +1,378 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+.clear{
+    clear: both;
+}
+
+.col-1{  width:8.33%;  }
+.col-2{  width:16.66%;  }
+.col-3{  width:25%;  }
+.col-4{  width:33.33%;  }
+.col-5{  width:41.66%;  }
+.col-6{  width:50%;  }
+.col-7{  width:58.33%;  }
+.col-8{  width:66.66%;  }
+.col-9{  width:75%;  }
+.col-10{  width:83.33%;  }
+.col-11{  width:91.66%;  }
+.col-12{  width:100%;  }
+
+
+[class*='col-']{
+    float: left;
+    border: 1px solid gray;
+}
+
+.header-height{height: 200px;}
+.menu-height{height: 50px;}
+.content-height{height: 1200px;}
+.big-footer-height{height: 300px;}
+.footer-height{height: 50px;}
+
+.wrapper{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+.row:after{
+    content:'';
+    clear:both;
+    display:block;
+}
+
+.main-li{
+    float: left;
+    width: 120px;
+}
+
+.main-li a{
+    text-decoration: none;
+    border: 1px solid gray;
+    display: block;
+    text-align: center;
+    height: 49px;
+    padding-top: 12px;
+    background-color: black;
+    color: white;
+}
+
+nav{
+    height: 50px;
+    background-color: black;
+    padding-left: 35%;
+}
+
+.main-li a:hover{
+    background-color: white;
+    color:black;
+}
+
+.div-one{
+    height: 200px;
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: red;
+    border-radius: 100px;
+    float: left;
+}
+
+.div-two{
+    height: 100px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: red;
+    border-radius: 100px 100px 0 0;
+    float: left;
+}
+.div-three{
+    height: 100px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: red;
+    border-radius: 0 0 100px 100px;
+    float: left;
+}
+.div-four{
+    height: 200px;
+    width: 100px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: red;
+    border-radius: 100px 0 0 100px;
+    float: left;
+}
+.div-five{
+    height: 200px;
+    width: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    background-color: red;
+    border-radius: 0 100px 100px 0;
+    float: left;
+}
+
+.div-six{
+    float: left;
+}
+
+.sub-div-six1{
+    height: 100px;
+    width:100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: red;
+    border-radius: 100px 0 0 0;
+    float: left;
+
+}
+
+.sub-div-six2{
+    height: 100px;
+    width:100px;
+    margin-top: 10px;
+    background-color: red;
+    border-radius: 0 100px 0 0;
+    float: left;
+    margin-left: 10px;
+}
+.sub-div-six3{
+    height: 100px;
+    width:100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: red;
+    border-radius: 0 0 0 100px;
+    float: left;
+}
+.sub-div-six4{
+    height: 100px;
+    width:100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: red;
+    border-radius: 0 0 100px 0;
+    float: left;
+}
+
+.div-seven{
+    float: left;
+}
+.sub-div-seven1{
+    height: 200px;
+    width:30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: red;
+    transform: skew(-20deg);
+    float: left;
+}
+.sub-div-seven2{
+    height: 200px;
+    width:30px;
+    margin-top: 10px;
+    margin-left: 45px;
+    background-color: red;
+    transform: skew(20deg);
+    float: left;
+}
+
+
+.sub-div-seven3{
+    height: 40px;
+    width: 100px;
+    margin-top: 120px;
+    margin-left: 25px;
+    background-color: red;
+}
+.div-eight{
+    float: left;
+}
+.div-eight1{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border: 30px solid red;
+    border-radius: 0 100px 100px 0;
+
+}
+.div-eight2{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    border: 30px solid red;
+    border-radius: 0 100px 100px 0;
+}
+
+.div-nine{
+    float: left;
+}
+.sub-div-nine1{
+    height: 150px;
+    width: 120px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-left: 30px solid red;
+    border-bottom: 30px solid red;
+    border-top: 30px solid red;
+    border-radius: 75px 25px 25px 75px;
+}
+
+.div-ten{
+    float: left;
+}
+
+.sub-div-ten1{
+    height: 150px;
+    width: 120px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 30px solid red;
+    border-radius: 10px 100px 100px 10px;
+    float: left;
+}
+.text-e{
+    float: left;
+}
+.text-e1{
+    height: 150px;
+    width:30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: red;
+    float: left;
+}
+.text-e2{
+    height: 80px;
+    width:30px;
+    margin-top: -5px;
+    margin-left: 20px;
+    background-color: red;
+    transform: rotate(90deg);
+    float: left;
+
+}
+.text-e3{
+    height: 80px;
+    width: 30px;
+    background-color: red;
+    transform: rotate(90deg);
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.text-e4{
+    height: 100px;
+    width: 30px;
+    margin-top: -30px;
+    background-color: red;
+    transform: rotate(90deg);
+    margin-left: 45px;
+}
+.text-f1{
+    height: 200px;
+    width: 30px;
+    background-color: red;
+    margin-left: 10px;
+}
+.text-f2{
+    height: 30px;
+    width: 120px;
+    margin-top:-200px;
+    background-color: red;
+    margin-left: 10px;
+    margin-bottom: 200px;
+}
+.text-f3{
+    height: 30px;
+    width: 100px;
+    margin-top: -150px;
+    background-color: red;
+    margin-left: 10px;
+}
+.text-g{
+    float: left;
+}
+.text-g1{
+    height: 150px;
+    width: 120px;
+    border-left: 30px solid red;
+    border-bottom: 30px solid red;
+    border-top: 30px solid red;
+    border-radius: 75px 25px 25px 75px;
+    margin-left: 180px;
+    margin-top: -120px;
+}
+.text-g2{
+    height: 80px;
+    width: 20px;
+    background-color: red;
+    margin-left: 280px;
+    margin-top: -80px;
+    border-top: 30px solid red;
+    border-right: 30px solid red;
+}
+.text-g3{
+    height: 30px;
+    width: 50px;
+    background-color: red;
+    margin-left: 260px;
+    margin-top: -80px;
+}
+.text-j{
+    float: left;
+}
+.text-j1{
+    height: 120px;
+    width: 120px;
+    border-right: 30px solid red;
+    margin-left: 400px;
+    margin-top: -130px;
+}
+.text-j2{
+    height: 90px;
+    width: 130px;
+    border-right: 30px solid red;
+    border-bottom: 30px solid red;
+    border-left: 30px solid red;
+    border-radius: 0 0 100px 100px;
+    margin-left: 390px;
+    margin-top: -30px;
+}
+
+.text-k{
+    float: left;
+}
+
+.text-k1{
+    height: 180px;
+    width: 35px;
+    background-color: red;
+    margin-left: 550px;
+    margin-top: -180px;
+}
+.text-k2{
+    height: 80px;
+    width:40px;
+    background-color: red;
+    transform: skew(40deg);
+    margin-left: 585px;
+    margin-top: -110px;
+}
+.text-k3{
+    height: 80px;
+    width:40px;
+    background-color: red;
+    transform: skew(-40deg);
+    margin-left: 585px;
+    margin-top: -120px;
+}
